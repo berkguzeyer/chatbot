@@ -95,7 +95,7 @@
   <script src="https://unpkg.com/supersimpledev/babel.js"></script>
   <script type="text/babel">
     function ChatInput({ chatMessages, setChatMessages }) {
-      const [inputText, setInputText] = React.useState(""); // empty string since there is nothing by default inside the field
+      const [inputText, setInputText] = React.useState(""); // this is initial value AND empty string since there is nothing by default inside the field
 
 
       function saveInputText(event) {

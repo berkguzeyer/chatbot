@@ -1,0 +1,7 @@
+.chat-messages-container {
+  flex-grow: 1;
+  margin-top: 20px;
+  overflow: scroll;
+  /*so that the chatinputbox doesnt get override by the messages at the bottom*/
+  scrollbar-width: none;
+}
