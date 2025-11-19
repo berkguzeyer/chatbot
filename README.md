@@ -1,7 +1,19 @@
 
-# Chatbot Project
+# Chatbot Monorepo
 
-A simple React-based chatbot application built with Vite.
+This repository contains a React-based chatbot application. The main project is located in the `chatbot-project` subfolder.
+
+## Structure
+
+- `chatbot-project/` — Main React chatbot app (Vite, React, custom components)
+	- `src/`
+		- `components/` — Chat UI components (ChatInput, ChatMessages, etc.)
+		- `assets/` — Images for user and robot profiles
+		- `App.jsx`, `main.jsx`, `App.css`, etc.
+	- `public/` — Static files (e.g., icons)
+	- `index.html` — Main HTML file for Vite
+	- `package.json`, `vite.config.js`, `eslint.config.js` — Project configuration
+	- `test/` — (Currently empty) for future tests
 
 ## Features
 - Chat interface with user and bot messages
@@ -17,14 +29,14 @@ A simple React-based chatbot application built with Vite.
 
 ### Installation
 1. Clone the repository:
-	```sh
-	git clone https://github.com/berkguzeyer/chatbot.git
-	cd chatbot/chatbot-project
-	```
+	 ```sh
+	 git clone https://github.com/berkguzeyer/chatbot.git
+	 cd chatbot/chatbot-project
+	 ```
 2. Install dependencies:
-	```sh
-	npm install
-	```
+	 ```sh
+	 npm install
+	 ```
 
 ### Running the App
 Start the development server:
@@ -43,14 +55,7 @@ npm run build
 npm run lint
 ```
 
-## Project Structure
-- `src/` - React source code
-  - `components/` - Chat UI components
-  - `assets/` - Images for user and robot
-- `public/` - Static files
-- `index.html` - Main HTML file
-
-## Dependencies
+## Main Dependencies
 - React
 - Vite
 - supersimpledev (for chatbot responses)
